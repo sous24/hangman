@@ -3,14 +3,14 @@
 ## Description
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-## About the project
-This project aims to create an easy code base for the game, hangman. It is built using Python
+## About the Project
+This project aims to create an easy code base for the game, hangman. It is built using Python.
 
-## Installation instructions
+## Installation Instructions
 
-## Usage instructions
+## Usage Instructions
 
-## File structure of the project
+## File Structure of the Project
 
 ## License
 MIT License
