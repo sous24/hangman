@@ -7,7 +7,7 @@ print(random_word)
 
 # User input
 user_guess = input("Choose a letter: ")
-if len(user_guess) <= 1 and user_guess.isalpha():
+if len(user_guess) == 1 and user_guess.isalpha():
     print("Good guess!")
 else:
     print("Oops! That is not a valid input. You chose,", user_guess, "Please choose a letter")
