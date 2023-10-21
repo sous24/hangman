@@ -3,13 +3,6 @@ import random
 word_list = ["Grape", "Pineapple", "Mango", "Blueberry", "Banana"]
 random_word = random.choice(word_list)
 
-def check_guess(random_word, guess):
-    guess = guess.lower()
-    if guess in random_word.lower():
-        print("Good guess!", guess, "is in the word.")
-    else:
-        print("Sorry,", guess, "is not in the word. Try again.")
-
 def ask_for_input():
     while True:
         guess = input("Choose a letter: ")
@@ -20,4 +13,13 @@ def ask_for_input():
             print("Invalid letter. Please, enter a single alphabetical character.")
     return guess
 
-ask_for_input()
+guess = ask_for_input()
+    
+def check_guess(random_word, guess):
+    if guess in random_word:
+        print("Good guess!", guess, "is in the word.")
+    else:
+        print("Sorry,", guess, "is not in the word. Try again.")
+
+check_guess(random_word, guess)
+
