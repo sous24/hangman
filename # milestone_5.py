@@ -1,10 +1,7 @@
-# milestone_5
-
 import random
-import numpy as np
 word_list = ["Grape", "Pineapple", "Mango", "Blueberry", "Banana"]
 word = random.choice(word_list)
-print(word)
+
 class Hangman:
     def __init__(self, word_list, num_lives=5):
         self.word_list = word_list
@@ -42,8 +39,6 @@ class Hangman:
                 self.list_of_guesses.append(guess)
                 print("".join(self.word_guessed))
                 break
-# game = Hangman(word_list)
-# game.ask_for_input()
 
 def play_game(word_list):
     num_lives = 5
@@ -57,7 +52,6 @@ def play_game(word_list):
         if game.word_guessed.count('_') > 0:
             game.ask_for_input()
             
-
 play_game(word_list)
 
 
