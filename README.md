@@ -7,10 +7,15 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This project aims to create an easy code base for the game, hangman. It is built using Python.
 
 ## Installation Instructions
+Install Python 3 
+Copy and paste code from "milestone_5.py" file
 
 ## Usage Instructions
+The player must input a letter/guess. The display will prompt for more inputs if the guess is correct, if not, the player will lose a life and has to try again.
 
-## File Structure of the Project
+## What I learnt from the Project
+I learnt how to implement a class and use it to organise a demo of a game.
+I used basics of python programming language as well as principles of Object Oriented Programming (OOP) to make the game play effective.
 
 ## License
 MIT License
